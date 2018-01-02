@@ -1,0 +1,12 @@
+spring:
+  main.banner-mode: 'off'
+  http:
+      multipart:
+        max-file-size: 1000KB
+        max-request-size: 1000KB
+
+server.port: 8081
+
+searchEngineServiceSettings:
+                      url: 'http://localhost:8082'
+                      urn:  '/search-engine'
