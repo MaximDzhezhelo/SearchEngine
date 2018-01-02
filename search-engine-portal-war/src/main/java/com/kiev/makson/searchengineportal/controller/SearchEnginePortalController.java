@@ -24,7 +24,7 @@ import static com.kiev.makson.searchengineportal.controller.SearchEnginePortalCo
 @RequestMapping(URL_SEARCH_ENGINE_PORTAL)
 public class SearchEnginePortalController {
 
-    public static final String URL_SEARCH_ENGINE_PORTAL = "/search-engine-portal";
+    public static final String URL_SEARCH_ENGINE_PORTAL = "/api/search-engine-portal";
 
     public static final String REQUEST_FILE_PARAM = "data";
     public static final String HEADER_KEY = "Content-Disposition";
